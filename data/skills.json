@@ -1,0 +1,26 @@
+[
+   {
+      "src": "./img/fotoEjemplo.png",
+      "title": "Business Strategy",
+      "desc": "Develop long-term plans to stay ahead of the competition.",
+      "cat": "Business"
+   },
+   {
+     "src": "../img/fotoEjemplo.png",
+     "title": "Mastering Negotiation",
+     "desc": "Communicate effectively to reach beneficial agreements.",
+     "cat": "Leadership"
+   },
+   {
+      "src": "./img/fotoEjemplo.png",
+      "title": "Financial Efficiency",
+      "desc": "Reduce costs while maintaining quality and productivity.",
+      "cat": "Financial"
+   },
+   {
+      "src": "./img/fotoEjemplo.png",
+      "title": "Document Management",
+      "desc": "Create, edit, and organize professional documents.",
+        "cat": "Computer"
+   }
+]

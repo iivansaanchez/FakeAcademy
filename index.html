@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <!-- <base href="/"> -->
+        <link rel="stylesheet" href="./LessCSS-main/css/lesscss-min.css">
+        <title>Fakedemy</title>
+
+        <style>
+            @media (max-width: 768px) {
+                .navbar,.navbar-content, .navbar-nav {
+                    flex-direction: column;
+                    align-items: center;
+                    
+                }
+            }
+            .navbar-content{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar bg-light-grey m-3">
+            <div class="navbar-content">
+                <a href="./" class="navbar-brand fw-light fs-2">
+                    Fakedemy
+                </a>
+                <ul class="navbar-nav">
+                    <li id="mskills" class="dropdown-list">
+                        <a class="dropdown-toggler" href="./skills">Business Skills <i class="arrow"></i></a>
+                    </li>
+                    <li id="mservices" class="dropdown-list">
+                        <a class="dropdown-toggler" href="./services">Business Services <i class="arrow"></i></a>
+                    </li>
+                    <li id="mabout" class="dropdown-list">
+                        <a class="dropdown-toggler" href="./about">About<i class="arrow"></i></a>
+                    </li>
+                    <li><a href="./contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="flex justify-content-center align-items-center my-3 gap-1 w-100" style="min-height: 80vh;">
+            <div id="content"></div>
+        </div>
+
+        <script src="./js/loadPage.js"></script>
+        <script src="./js/fetch-data.js"></script>
+        <script src="./js/url-router.js"></script>
+        <script src="./LessCSS-main/js/lesscss.js"></script>
+    </body>
+</html>

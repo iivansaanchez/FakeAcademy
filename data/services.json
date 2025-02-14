@@ -1,0 +1,38 @@
+[
+   {
+      "src": "./img/fotoEjemplo.png",
+      "title": "Advanced Office Tools",
+      "desc": "Master essential office applications for document creation, data management, and collaboration.",
+      "cat": "Productivity"
+   },
+   {
+       "src": "./img/fotoEjemplo.png",
+       "title": "Web Hosting Services",
+       "desc": "Fast and secure web hosting solutions with 24/7 support and high reliability.",
+       "cat": "Web"
+    },
+    {
+     "src": "./img/fotoEjemplo.png",
+     "title": "Cloud Infrastructure",
+     "desc": "Enhance business efficiency with scalable and secure cloud solutions.",
+     "cat": "Cloud"
+    }, 
+    {
+     "src": "./img/fotoEjemplo.png",
+     "title": "Cybersecurity Protection",
+     "desc": "Safeguard your data with advanced threat detection, encryption, and security protocols.",
+     "cat": "Security"
+     },    
+     {
+        "src": "./img/fotoEjemplo.png",
+        "title": "Data Analytics & Reporting",
+        "desc": "Transform raw data into insightful visual reports and dashboards.",
+        "cat": "Data"
+     },
+     {
+        "src": "./img/fotoEjemplo.png",
+        "title": "Mobile App Development",
+        "desc": "Design and build cross-platform mobile applications with cutting-edge technologies.",
+        "cat": "Mobile"
+     }
+]

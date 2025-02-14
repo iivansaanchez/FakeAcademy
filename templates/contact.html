@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            font-size: 24px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .input-field {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1em;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .submit-button {
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .submit-button:hover {
+            background-color: #34495e;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="container">
+        <h2>We'd love to hear from you!</h2>
+        <p>If you have any questions or need further information, please fill out the form below and we'll get back to you as soon as possible.</p>
+
+        <form action="contacto.php" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Your Name" class="input-field" required>
+            <input type="email" name="correo" placeholder="Your Email" class="input-field" required>
+            <input type="text" name="asunto" placeholder="Subject" class="input-field" required>
+            <textarea name="mensaje" placeholder="Your Message" class="input-field" rows="4" required></textarea>
+            <input type="submit" value="Send Message" class="submit-button">
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Our Contact Information</h2>
+        <p>If you'd like to reach us directly, feel free to contact us at the following:</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> info@business.com</p>
+            <p><strong>Phone:</strong> +123 456 789</p>
+            <p><strong>Address:</strong> 123 Business St, City, Country</p>
+        </div>
+    </div>
+</body>
+</html>
+x
