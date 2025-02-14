@@ -2,37 +2,37 @@
    {
       "src": "./img/fotoEjemplo.png",
       "title": "Advanced Office Tools",
-      "desc": "Master essential office applications for document creation, data management, and collaboration.",
+      "desc": "Master essential office applications for document creation, data management, and collaboration. Software details: Microsoft Office Suite, available with a license or free trial versions, with mobile apps for editing on smartphones.",
       "cat": "Productivity"
    },
    {
        "src": "./img/fotoEjemplo.png",
        "title": "Web Hosting Services",
-       "desc": "Fast and secure web hosting solutions with 24/7 support and high reliability.",
+       "desc": "Fast and secure web hosting solutions with 24/7 support and high reliability. Includes tools with flexible pricing, free trials, and smartphone-compatible dashboards for managing web hosting from anywhere.",
        "cat": "Web"
     },
     {
      "src": "./img/fotoEjemplo.png",
      "title": "Cloud Infrastructure",
-     "desc": "Enhance business efficiency with scalable and secure cloud solutions.",
+     "desc": "Enhance business efficiency with scalable and secure cloud solutions. Software details: Cloud platforms with flexible pricing models, free trials, and mobile apps to manage cloud resources on smartphones.",
      "cat": "Cloud"
-    }, 
+    },
     {
      "src": "./img/fotoEjemplo.png",
      "title": "Cybersecurity Protection",
-     "desc": "Safeguard your data with advanced threat detection, encryption, and security protocols.",
+     "desc": "Safeguard your data with advanced threat detection, encryption, and security protocols. Tools used include cybersecurity software with licensing options and trial versions, plus mobile apps for monitoring security on-the-go.",
      "cat": "Security"
-     },    
-     {
+    },
+    {
         "src": "./img/fotoEjemplo.png",
         "title": "Data Analytics & Reporting",
-        "desc": "Transform raw data into insightful visual reports and dashboards.",
+        "desc": "Transform raw data into insightful visual reports and dashboards. Includes access to analytics software with trial versions and mobile apps to create and view reports from your smartphone.",
         "cat": "Data"
-     },
-     {
+    },
+    {
         "src": "./img/fotoEjemplo.png",
         "title": "Mobile App Development",
-        "desc": "Design and build cross-platform mobile applications with cutting-edge technologies.",
+        "desc": "Design and build cross-platform mobile applications with cutting-edge technologies. Software details: Integrated development environments (IDEs) like Android Studio and Xcode, with free versions and mobile device testing tools.",
         "cat": "Mobile"
-     }
+    }
 ]
